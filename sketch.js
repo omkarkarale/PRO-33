@@ -6,9 +6,9 @@ const Bodies = Matter.Bodies;
 var leftboyImg, rightboyImg, boyImg, boy, bgImg;
 function preload(){
   bgImg = loadImage("snow1.jpg");
-  boyImg = loadAnimation("left/left1.png")
-  leftboyImg = loadAnimation("left/left1.png", "left/left2.png", "left/left3.png", "left/left4.png", "left/left5.png", "left/left6.png");
-  rightboyImg = loadAnimation("right/right1.png", "right/right2.png", "right/right3.png", "right/right4.png", "right/right5.png", "right/right6.png");
+  boyImg = loadAnimation("left/left1.PNG")
+  leftboyImg = loadAnimation("left/left1.PNG", "left/left2.PNG", "left/left3.PNG", "left/left4.PNG", "left/left5.PNG", "left/left6.PNG");
+  rightboyImg = loadAnimation("right/right1.PNG", "right/right2.PNG", "right/right3.PNG", "right/right4.PNG", "right/right5.PNG", "right/right6.PNG");
 }
 
 function setup() {
